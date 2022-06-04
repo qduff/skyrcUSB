@@ -52,4 +52,4 @@ else:
 
 Have a look at the ./examples/ directory for examples, although you will likely need to take a look at the source code for more advanced usage (who needs documentation?)
 
-Please find the license in LICENSE.txt
+The license can be found in LICENSE.txt
