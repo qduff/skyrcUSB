@@ -2,7 +2,7 @@
 
 This is a library which you can use to interface with your skyRC charger. It has only been tested with the D100V2 and will throw an error if it detects a different model. This is only done to ensure your charger is not damaged, and I presume the code should work - I simply haven't tested it.
 
-This program is also not able to write changes to the charger or start charges for safety reasons.  
+*This library is also not able to write changes to the charger or start charges - this is done for safety reasons* 
 
 Example usage is below:
 
