@@ -2,7 +2,7 @@
 
 This is a library which you can use to interface with your skyRC charger. Examples of what it can do is return the voltages of all the cells ( even when not charging) and can also return charge data in real time - to one more decimal point than the display on the charger!
 
-It has only been tested with the D100V2 and will throw an error if it detects a different model. This is only done to ensure your charger is not damaged. I presume the code should work - I simply haven't tested it.
+It has only been tested with the D100V2 and will throw an error if it detects a different model - it should however work in theorey.
 
 *This library is also not able to write changes to the charger or start charges* 
 
