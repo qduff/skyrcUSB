@@ -50,7 +50,7 @@ if not cstate.isIdle(): # if charger is charging or finished
     print(f"Capacity: {cstate.capacity} mah")
     print(f"Duration: {cstate.chargeDuration} seconds")
 else:
-    print("Charger is not charging.")
+    print("Charger has not started charging.")
 
 ```
 
