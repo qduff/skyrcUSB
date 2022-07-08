@@ -20,7 +20,7 @@ print(f"Model {charger.model_name} SW:{charger.software_version} \n")
 # Get voltages for each cell
 
 for sideID in range(2):
-    vcells = charger.getCellInfo(side=sideID)  # Left side
+    vcells = charger.getCellInfo(side=sideID)  
     if vcells:
         print(f"{len(vcells)} Cells in the battery")
         [print(f"Cell {i+1}:  {v}mV") for i, v in enumerate(vcells)]
